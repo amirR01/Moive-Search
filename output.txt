@@ -1,0 +1,155 @@
+Search Query: spider
+{
+    "took": 19,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 9,
+            "relation": "eq"
+        },
+        "max_score": 4.766183,
+        "hits": [
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt0145487",
+                "_score": 4.766183,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ],
+                    "first_page_summary": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+                    "title": "Spider-Man"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt9362722",
+                "_score": 4.404567,
+                "_source": {
+                    "geners": [
+                        "Animation",
+                        "Action",
+                        "Adventure"
+                    ],
+                    "first_page_summary": "Miles Morales catapults across the multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Mi... Read all",
+                    "title": "Spider-Man: Across the Spider-Verse"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt4633694",
+                "_score": 4.404567,
+                "_source": {
+                    "geners": [
+                        "Animation",
+                        "Action",
+                        "Adventure"
+                    ],
+                    "first_page_summary": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+                    "title": "Spider-Man: Into the Spider-Verse"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt2250912",
+                "_score": 4.1071615,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ],
+                    "first_page_summary": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New ... Read all",
+                    "title": "Spider-Man: Homecoming"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt0316654",
+                "_score": 4.1071615,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ],
+                    "first_page_summary": "Peter Parker is beset with troubles in his failing personal life as he battles a former brilliant scientist named Otto Octavius.",
+                    "title": "Spider-Man 2"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt0413300",
+                "_score": 4.1071615,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ],
+                    "first_page_summary": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+                    "title": "Spider-Man 3"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt0948470",
+                "_score": 3.6082487,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Sci-Fi"
+                    ],
+                    "first_page_summary": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+                    "title": "The Amazing Spider-Man"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt10872600",
+                "_score": 3.2174168,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Fantasy"
+                    ],
+                    "first_page_summary": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it trul... Read all",
+                    "title": "Spider-Man: No Way Home"
+                }
+            },
+            {
+                "_index": "imdb_movies",
+                "_type": "_doc",
+                "_id": "tt6320628",
+                "_score": 3.2174168,
+                "_source": {
+                    "geners": [
+                        "Action",
+                        "Adventure",
+                        "Comedy"
+                    ],
+                    "first_page_summary": "Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.",
+                    "title": "Spider-Man: Far from Home"
+                }
+            }
+        ]
+    }
+}
