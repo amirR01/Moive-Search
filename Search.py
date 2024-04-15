@@ -16,11 +16,11 @@ class Search:
         return res
     def more_like_this(self, input_string, spcific_fields=True):
         if spcific_fields:
-            fields = ["title", "first_page_summary","geners"]
+            fields = ["summaries", "stars", "geners"]
         else:
             fields = ["summaries", "synopsises"]
         query = {
-                "_source": fields,
+                "_source": fields+["title"],
                 "query": {
                     "more_like_this" : {
                     "fields" : fields,
@@ -28,7 +28,7 @@ class Search:
                     "min_term_freq" : 0
                     }
                 },
-                "size": 15
+                "size": 30
             }
         return query
     def indent(self, res):
