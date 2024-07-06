@@ -28,7 +28,7 @@ class Search:
                     "min_term_freq" : 0
                     }
                 },
-                "size": 30
+                "size": 100
             }
         return query
     def indent(self, res):
